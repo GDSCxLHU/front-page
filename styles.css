@@ -5,7 +5,7 @@ body {
     background-color: #f0f0f0;
 }
 header {
-    background-color: #333;
+    background-color: #c022ec;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -16,8 +16,20 @@ header {
     padding: 20px;
 }
 h1 {
-    color: purple;
+    color: rgba(248, 248, 248, 0.954);
 }
 p {
-    color: #666;
+    color: #dcefef;
 }
+.centered {
+    position: relative;
+    height: 25vh; /* 可以根據需要調整高度 */
+  }
+  
+  #title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
